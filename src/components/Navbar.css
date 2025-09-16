@@ -4,7 +4,7 @@
   align-items: center;
   padding: 15px 40px;
   background: #000; /* Black background */
-  color: #14ffdc; /* Neon Mint text */
+  color: #14ffff; /* Neon Mint text */
   position: sticky;
   top: 0;
   z-index: 100;
@@ -18,7 +18,7 @@
 }
 
 .logo:hover {
-  color: #14efff; /* Neon Mint hover */
+  color: #14ffff; /* Neon Mint hover */
 }
 .nav-links {
   list-style: none;
@@ -34,5 +34,5 @@
 }
 
 .nav-links li a:hover {
-  color: #14efff; /* Neon Mint hover */
+  color: #14ffff; /* Neon Mint hover */
 }

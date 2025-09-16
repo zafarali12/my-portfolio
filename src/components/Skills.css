@@ -8,8 +8,8 @@
 .skills h2 {
   font-size: 2rem;
   margin-bottom: 30px;
-  color: #14ffeb; /* Neon Mint */
-  text-shadow: 0 0 10px #14ffeb;
+  color: #14ffff; /* Neon Mint */
+  text-shadow: 0 0 10px #14ffff;
 }
 
 .skills-grid {
@@ -22,22 +22,22 @@
 
 .skill-card {
   background: #111;
-  color: #14efff;
-  border: 1px solid #14efff;
+  color: #14ffff;
+  border: 1px solid #14ffff;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 0 15px rgba(57, 255, 20, 0.4);
+  box-shadow: 0 0 15px rgba(20, 184, 255, 0.4);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .skill-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 25px #14ffef;
+  box-shadow: 0 0 25px #14ffff;
 }
 
 .skill-card h3 {
   margin-bottom: 15px;
-  color: #14efff;
+  color: #14ffff;
 }
 
 .skill-card ul {

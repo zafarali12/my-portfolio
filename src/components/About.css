@@ -8,8 +8,8 @@
 .about h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #14f3ff; /* Neon Mint */
-  text-shadow: 0 0 10px #14efff;
+  color: #14ffff; /* Neon Mint */
+  text-shadow: 0 0 10px #14ffff;
 }
 
 .about p {
@@ -21,6 +21,6 @@
 }
 
 .highlight {
-  color: #14ffef;
+  color: #14ffff;
   font-weight: bold;
 }
