@@ -1,0 +1,73 @@
+.certifications {
+  padding: 60px 20px;
+  background: #111; /* Dark black background */
+  color: #fff;
+  text-align: center;
+}
+
+.certifications h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #14ffff; /* Neon Mint */
+  text-shadow: 0 0 10px #14ffff;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* ✅ card thore bade */
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cert-card {
+  background: #000;
+  border: 1px solid #14ffff;
+  border-radius: 12px;
+  padding: 20px;
+  min-height: 400px; /* ✅ medium size ensure */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0 0 15px rgba(20, 224, 255, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cert-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 30px #14ffff;
+}
+
+.cert-img {
+  width: 100%;
+  height: 220px; /* ✅ fixed medium height */
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #14ffff;
+  box-shadow: 0 0 10px rgba(20, 235, 255, 0.6);
+  transition: transform 0.3s;
+}
+
+.cert-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #14ffff;
+}
+
+.cert-card h3 {
+  color: #14ffff;
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+}
+
+.cert-card p {
+  color: #ddd;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.year {
+  display: block;
+  color: #aaa;
+  font-size: 0.9rem;
+}

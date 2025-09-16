@@ -1,0 +1,81 @@
+.reviews {
+  padding: 60px 20px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #14ffff;
+  text-shadow: 0 0 8px #14ffff;
+}
+
+.demo-badge {
+  font-size: 0.8rem;
+  color: #000;
+  background: #14ffff;
+  padding: 4px 8px;
+  border-radius: 999px;
+  margin-left: 10px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.review-card {
+  background: #0b0b0b;
+  border: 1px solid #14ffff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 0 14px rgba(20, 255, 255, 0.12);
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.review-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 24px rgba(20, 255, 255, 0.24);
+}
+
+.review-text {
+  color: #ddd;
+  font-size: 0.98rem;
+  line-height: 1.45;
+  margin-bottom: 12px;
+}
+
+.review-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.review-name {
+  color: #14ffff;
+  font-weight: 700;
+}
+
+.review-role {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* small note */
+.reviews-note {
+  margin-top: 14px;
+  color: #9aa;
+  font-size: 0.9rem;
+}

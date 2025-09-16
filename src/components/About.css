@@ -1,0 +1,26 @@
+.about {
+  padding: 60px 20px;
+  background: #111; /* Dark Black */
+  color: #fff;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #14f3ff; /* Neon Mint */
+  text-shadow: 0 0 10px #14efff;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+.highlight {
+  color: #14ffef;
+  font-weight: bold;
+}
