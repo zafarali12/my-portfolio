@@ -28,3 +28,6 @@
   background: #000000;
   color: white;
 }
+html {
+  scroll-behavior: smooth;
+}
