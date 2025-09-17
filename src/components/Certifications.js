@@ -7,8 +7,16 @@ import cert4 from "../assets/datascience_certificate.jpg";
 import cert5 from "../assets/dataanalytics_certificate.jpg";
 import cert6 from "../assets/javascipt certificate.png";
 import cert7 from "../assets/Communication_skills.jpg";
+import cert8 from "../assets/AWS_BEDROCK.png";
 function Certifications() {
   const certifications = [
+     {
+      title: "Generative AI in AWS Bedrock Certificate",
+      issuer: "AWS (Amazon Web Services)",
+      year: "2025",
+      img: cert8,
+    },
+
     {
       title: "PEL Internship Certificate",
       issuer: "PEL (Full Stack Developer Intern)",

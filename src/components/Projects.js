@@ -8,14 +8,14 @@ function Projects() {
       description:
         "A travel booking website like Airbnb built with React.js, Node.js, Express.js, and MongoDB. Features include user authentication, listings, reviews, and booking system.",
       tech: ["React", "Node.js", "MongoDB", "Express.js"],
-      link: "https://github.com/zafarali12", // Replace with actual project link
+      link: "https://github.com/zafarali12/FULL-STACK-WANDERLUST", // Replace with actual project link
     },
     {
       title: "Zerodha Trading Platform Clone",
       description:
         "Developed a trading website clone with frontend and backend, including stock listing, order management, and dashboard. Focused on real-time data handling.",
       tech: ["React", "Node.js", "Express.js", "MongoDB"],
-      link: "https://github.com/zafarali12",
+      link: "https://github.com/zafarali12/FULL-STACK-ZERODHA-CLONE",
     },
     {
       title: "Naive Bayes Text Classifier",
@@ -29,8 +29,16 @@ function Projects() {
       description:
         "Created AI Agents to automate business workflows using N8N and prompt engineering. Integrated external APIs for dynamic task handling.",
       tech: ["N8N", "Prompt Engineering", "APIs"],
-      link: "https://github.com/zafarali12",
+      link: "https://github.com/zafarali12/n8n-projects",
     },
+     {
+      title: "Generative AI in AWS Bedrock",
+      description:
+        "Developed a Generative AI model using AWS Bedrock, leveraging pre-trained models for text generation and summarization.",
+      tech: ["AWS", "Generative AI", "Machine Learning"],
+      link: "https://github.com/zafarali12/AWS-Bedrock-main-", // Replace with actual project link
+    },
+    
   ];
 
   return (
