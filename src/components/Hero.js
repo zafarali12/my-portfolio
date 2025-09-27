@@ -27,7 +27,7 @@ function Hero() {
         <p>Lahore, Pakistan</p>
 
         <div className="buttons">
-          <a href={resume} download>
+          <a href={Resume} download>
             <button>Download Resume</button>
           </a>
           <a href="https://github.com/zafarali12" target="_blank" rel="noreferrer">
