@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from "../assets/WhatsApp Image 2024-10-22 at 11.25.42 PM.jpeg";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Resume.pdf";
 import "./Hero.css";
 import { Typewriter } from "react-simple-typewriter";
 
@@ -27,7 +27,7 @@ function Hero() {
         <p>Lahore, Pakistan</p>
 
         <div className="buttons">
-          <a href={Resume} download>
+          <a href={resume} download>
             <button>Download Resume</button>
           </a>
           <a href="https://github.com/zafarali12" target="_blank" rel="noreferrer">
