@@ -38,7 +38,14 @@ function Projects() {
       tech: ["AWS", "Generative AI", "Machine Learning"],
       link: "https://github.com/zafarali12/AWS-Bedrock-main-", // Replace with actual project link
     },
-    
+    {
+  title: "MY-SPACE (Full Stack Web Application)",
+  description:
+    "Developed a full stack web application during internship at Cortexis Solution Hub. The project included user authentication, responsive UI, and RESTful API integration using Express.js, Node.js, React (Vite), and Bootstrap.",
+  tech: ["React (Vite)", "Node.js", "Express.js", "Bootstrap", "MongoDB"],
+  link: "https://github.com/zafarali12/MY-SPACE", // Replace with actual repo link if needed
+},
+
   ];
 
   return (

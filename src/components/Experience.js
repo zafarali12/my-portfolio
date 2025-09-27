@@ -3,6 +3,14 @@ import "./Experience.css";
 
 function Experience() {
   const experiences = [
+    {
+      company: "Cortexis Solution hub (Remote / Lahore)",
+      role: "MERN Stack Developer Intern",
+      duration: "Aug 2025 – Oct 2025",
+      details: [
+       "During my internship at Cortexis Solution Hub, I completed 9 structured MERN stack tasks and developed a main project using Express.js, Node.js, React (Vite), and Bootstrap. This experience helped me strengthen my skills in building responsive UIs, developing RESTful APIs, and integrating frontend with backend efficiently."
+      ],
+    },
    
     {
       company: "Developers Cohub (Remote / Lahore)",
