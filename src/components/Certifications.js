@@ -8,7 +8,10 @@ import cert5 from "../assets/dataanalytics_certificate.jpg";
 import cert6 from "../assets/javascipt certificate.png";
 import cert7 from "../assets/Communication_skills.jpg";
 import cert8 from "../assets/AWS_BEDROCK.png";
+import cert9 from "../assets/iamge.png";
+
 function Certifications() {
+
   const certifications = [
      {
       title: "Generative AI in AWS Bedrock Certificate",
@@ -47,9 +50,16 @@ function Certifications() {
       year: "2025",
       img: cert5,
     },
+      
+     {
+      title: "React and Redux Certification",
+      issuer: "Knowledge Gate",
+      year: "2025",
+      img: cert9,
+    },
      {
       title: "Javascript Certification",
-      issuer: "Certified in Javascript",
+      issuer: "Knowledge Gate",
       year: "2025",
       img: cert6,
     },
