@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from "../assets/WhatsApp Image 2024-10-22 at 11.25.42 PM.jpeg";
-import resume from "../assets/Resume_v2.pdf";
+import resume from "../assets/zafarali.pdf";
 import "./Hero.css";
 import { Typewriter } from "react-simple-typewriter";
 
