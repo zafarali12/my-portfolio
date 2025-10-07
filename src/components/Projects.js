@@ -3,6 +3,14 @@ import "./Projects.css";
 
 function Projects() {
   const projects = [
+     {
+      title: "Wheels Deal – Modern Car Selling Platform",
+      description:
+        "A modern car selling platform built with React.js, Node.js, Express.js, and MongoDB. Features include user authentication, listings, reviews, and booking system.",
+      tech: ["Reactjs", "Tailwind CSS"],
+      link: "https://github.com/zafarali12/carSelling-web-WheelsDeal", // Replace with actual project link
+    },
+
     {
       title: "Wanderlust Travel Platform",
       description:
